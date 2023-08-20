@@ -1,3 +1,6 @@
+import { useBoardDimensions } from "../../hooks/useBoardDimensions";
+
 export const Board = () => {
-  return <div></div>;
+  const { board } = useBoardDimensions();
+  return <div>{board}</div>;
 };

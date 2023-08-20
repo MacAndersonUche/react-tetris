@@ -1,2 +1,2 @@
-export const Board_Width = 10;
-export const Board_Height = 20;
+export const BOARDWIDTH = 10;
+export const BOARDHEIGHT = 20;
